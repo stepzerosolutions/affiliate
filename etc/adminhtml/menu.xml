@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Stepzero.solutions. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Stepzerosolutions_Affiliate::affiliate" title="Affiliate" module="Stepzerosolutions_Affiliate" sortOrder="100" parent="Magento_Backend::marketing" resource="Stepzerosolutions_Affiliate::affiliate"/>
+        <add id="Stepzerosolutions_Affiliate::dashboard" title="Dashboard" module="Stepzerosolutions_Affiliate" sortOrder="0" parent="Stepzerosolutions_Affiliate::affiliate" action="affiliate/dashboard" resource="Stepzerosolutions_Affiliate::dashboard"/>
+    </menu>
+</config>
